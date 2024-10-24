@@ -240,6 +240,7 @@
                     </tr>
                 </table>
                 <a href="EliminarEmpleado.jsp">Regresar</a>
+                
             </CENTER>
         </form>
         <%        } else {%>
@@ -282,7 +283,7 @@
                     <td><%= empleado.getNivelEstudio()%></td>
                     <td><%= empleado.getTipoUsuario()%></td>
                 </tr>
-            <h2>Producto agregado</h2>
+            <h2>Empleado agregado</h2>
         </tbody>
     </table> 
     <a href="EliminarEmpleado.jsp">Regresar</a>

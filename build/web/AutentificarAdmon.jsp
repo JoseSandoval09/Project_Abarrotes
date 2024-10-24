@@ -19,7 +19,7 @@
     <body>
         <form>
             <center>
-                <h1>Acceso del empleado</h1>
+                <h1>Acceso del Admin</h1>
                 <div id="menu">
                     <ul>
                         <li><a href="Conocenos.jsp"  class = "normalMenu">Conocenos</a></li>
@@ -76,6 +76,13 @@
         <input type="button" onclick=" location.href = 'EliminarProducto.jsp'" value="Productos" name="boton" />
         <P> <B>PORTAL PARA LA CONFIGURACION DE CLIENTES</B> </P>
         <input type="button" onclick=" location.href = 'EliminarCliente.jsp'" value="Clientes" name="boton" />
+        <P> <B>PORTAL PARA LA CONFIGURACION DE EMPLEADOS</B> </P>
+        <input type="button" onclick=" location.href = 'InsertarEmpleado.jsp'" value="Empleados" name="boton" />
+        <P> <B>PORTAL PARA LA CONFIGURACION DE EMPRESAS</B> </P>
+        <input type="button" onclick=" location.href = 'InsertarEmpresa.jsp'" value="Empresas" name="boton" />
+        <P> <B>PORTAL PARA LA CONFIGURACION DE PROVEEDORES</B> </P>
+        <input type="button" onclick=" location.href = 'InsertarProveedor.jsp'" value="Proveedores" name="boton" />
+        
     </center>
     <%  break;
     } else {
